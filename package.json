@@ -1,0 +1,36 @@
+{
+  "name": "lcov-guard",
+  "version": "1.0.0",
+  "description": "Command line tool that checks that the test coverage is above a specified minimum.",
+  "main": "src/index.js",
+  "bin": "src/cli.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "nyc npm run test"
+  },
+  "keywords": [
+    "lcov",
+    "pipeline",
+    "ci",
+    "cd",
+    "coverage",
+    "test"
+  ],
+  "author": "daniel@lehrner.me",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "commander": "^3.0.2",
+    "lcov-parse": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-mocha": "^6.2.2",
+    "eslint-plugin-node": "^9.2.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "mocha": "^6.2.2",
+    "nyc": "^14.1.1"
+  }
+}
