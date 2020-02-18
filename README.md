@@ -1,5 +1,5 @@
 # LCOV Guard
 
 ```
-npm install lcov-coverage-guard --no-save --only=production
+npm install lcov-guard --no-save --only=production
 ```
